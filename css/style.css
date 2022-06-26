@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  margin-bottom: 5px;
+  border-bottom: 2px solid #2742db;
+  border-color: #2742db;
+  box-shadow: 5px;
+}
+
+.page-name {
+  color: #2742db;
+}
+
+.welcome {
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  left: 40%;
+  bottom: 60%;
+  right: 40%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: #2742db;
+  border-radius: 15px; */
+  width: fit-content;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
